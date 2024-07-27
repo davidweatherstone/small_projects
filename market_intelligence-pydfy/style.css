@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Ensure the background does not scroll */
+  }
+}
+
+@media print {
+  html,
+  body {
+    width: 210mm;
+    height: 297mm;
+    font-size: 8pt;
+    margin: 0;
+  }
+}
+
+@media print {
+  thead {
+    display: table-row-group;
+  }
+}
+
+@page {
+  size: A4;
+  margin: 1cm;
+}
+
+.pf-section {
+}
+
+.pf_image {
+}
+
+.pf-kpi {
+}
+
+.pf-kpi-content {
+}
+
+.pf-number-title {
+}
+
+.pf-number-content {
+}
+
+.pf-pagebreak {
+}
+
+.pf-paragraph {
+}
+
+.pf-section {
+}
+
+.pf-table-title {
+}
+
+.pf-table-header {
+}
+
+.pf-table-content {
+}
+
+.pf-title {
+}
+
+.main-title {
+  text-align: center;
+  margin-top: 128px;
+
+  font-size: 46px;
+}
+
+.logo-img {
+  max-width: 140px;
+}
+
+.titlepage-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%; /* Optional: To make it full width */
+}
